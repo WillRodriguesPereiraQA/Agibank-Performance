@@ -36,14 +36,12 @@ Obs: As execuções não atingiram o critério de aceite (`>=250 req/s` e `P90 <
   - Fluxo completo encapsulado em Transaction Controller (`TRX - Compra de passagem`)
 - Observação: o plano foi desenhado para pico acima de `250 req/s`, mas o resultado real depende da capacidade do SUT e do gerador de carga.
 
-## Instruções para execução
 
 ## Pré-requisitos
 
 - Java 11+ instalado
 - Apache JMeter 5.6+ instalado e disponível no PATH (`jmeter`)
 
-## Execução em modo não-GUI
 
 ### Teste de carga
 
